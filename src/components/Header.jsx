@@ -1,7 +1,7 @@
 import styles from "./Header.module.css"
 import { useState } from "react"
 import logo_smarmita from "../images/logo_smarmita.png"
-import { List, X } from "@phosphor-icons/react"
+import { List, X, Moon, Sun, MagnifyingGlass } from "@phosphor-icons/react"
 
 function Header() {
   const [abrirMenu, setAbrirMenu] = useState(false);
@@ -60,14 +60,14 @@ function Header() {
         <div className="escuro">
           <div className="modo-escuro">
             <Moon size={32} />
-            <i class='bx bx-sun' ></i>
+            <Sun size={32} />
           </div>
         </div>
 
         <div className="pesquisa">
           <div className="modo-escuro">
-            <i class='bx bx-x'></i>
-            <i class='bx bx-search' ></i>
+            <X size={32}/>
+            <MagnifyingGlass size={32} />
           </div>
         </div>
 
