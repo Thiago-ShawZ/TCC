@@ -1,8 +1,6 @@
 import styles from "./Header.module.css"
 import { useState } from "react"
 import logo_smarmita from "../images/logo_smarmita.png"
-
-
 import { List, X } from "@phosphor-icons/react"
 
 function Header() {
@@ -59,10 +57,17 @@ function Header() {
 
         </div>
 
-        <div className="escuro-pesquisa">
+        <div className="escuro">
           <div className="modo-escuro">
-            <i class='bx bx-moon moon'></i>
+            <Moon size={32} />
             <i class='bx bx-sun' ></i>
+          </div>
+        </div>
+
+        <div className="pesquisa">
+          <div className="modo-escuro">
+            <i class='bx bx-x'></i>
+            <i class='bx bx-search' ></i>
           </div>
         </div>
 

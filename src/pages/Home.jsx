@@ -30,9 +30,11 @@ Dessa maneira, nosso objetivo é ajudar e facilitar a vida daqueles que trabalha
       </section>
       <section className={styles.process}>
         <h1>PROCESSO:</h1>
-        <div className={styles.process_photo}>
-            <img src={foto_video} height="344"/>
-          </div>
+
+        {/* <div className={styles.process_photo}>
+          <img src={foto_video} height="344"/>
+        </div>
+        */}
       </section>
      </div>
     </>
